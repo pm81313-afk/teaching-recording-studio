@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>教學錄影室｜螢幕與麥克風錄製</title>
+<style>
+:root{color-scheme:light;--ink:#243b42;--muted:#687d7f;--green:#245e57;--cream:#f7f5ef;--border:#dfe7e1}*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.6}button,select{font:inherit}button{cursor:pointer}button:disabled,select:disabled{cursor:not-allowed;opacity:.5}.shell{max-width:1120px;margin:auto;padding:34px 24px 56px}.brand{display:flex;align-items:center;gap:11px;font-weight:800;letter-spacing:.07em;font-size:15px}.mark{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:#d7e8de;color:var(--green);font-size:19px}.hero{display:flex;justify-content:space-between;align-items:end;gap:24px;margin:52px 0 30px}.eyebrow{color:#668b7d;font-size:12px;font-weight:800;letter-spacing:.18em}.hero h1{font-size:clamp(30px,4vw,44px);letter-spacing:-.04em;line-height:1.2;margin:9px 0 10px}.hero p{margin:0;color:var(--muted)}.pill{border:1px solid #dce6dc;border-radius:99px;padding:8px 14px;color:#547566;background:#fff;font-size:13px;white-space:nowrap}.layout{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(300px,1fr);gap:20px}.panel{background:#fff;border:1px solid #e7ebe4;border-radius:20px;box-shadow:0 12px 38px #3654480a}.preview-panel{padding:20px}.panel-title{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 15px;font-size:15px;font-weight:750}.status{font-size:12px;color:#71867c;display:flex;align-items:center;gap:7px}.dot{width:8px;height:8px;border-radius:50%;background:#abc1b4}.dot.live{background:#d56055;box-shadow:0 0 0 4px #f9e4e1}.preview{aspect-ratio:16/10;border-radius:13px;background:#eaf0ec;display:grid;place-items:center;overflow:hidden;position:relative}.placeholder{text-align:center;color:#7c9088;padding:20px}.screen-icon{width:64px;height:48px;margin:0 auto 18px;border:2px solid #9ab4a7;border-radius:7px;position:relative}.screen-icon:after{content:'';position:absolute;width:25px;height:2px;background:#9ab4a7;bottom:-10px;left:18px}.placeholder strong{display:block;color:#536f63;font-size:15px}.placeholder span{font-size:13px}video{width:100%;height:100%;object-fit:contain;background:#233b36;display:none}.preview.has-video video{display:block}.preview.has-video .placeholder{display:none}.preview-note{font-size:12px;color:#8b9b93;margin:13px 2px 0}.controls{padding:26px}.step{font-size:12px;font-weight:800;color:#7b9a8d;letter-spacing:.08em}.controls h2{font-size:21px;margin:4px 0 20px}.field{margin-bottom:20px}.label-row{display:flex;justify-content:space-between;gap:8px;align-items:baseline}label{display:block;font-weight:700;font-size:14px;margin-bottom:7px}.link-button{background:none;border:0;color:#39786a;font-size:12px;font-weight:700;padding:3px}.camera-option{display:flex;gap:10px;align-items:flex-start;background:#f9fbf9;border:1px solid #dbe5de;border-radius:10px;padding:12px 14px}.camera-option input{margin:5px 0 0;accent-color:#2e6d5e;width:17px;height:17px}.camera-option label{margin:0;cursor:pointer}.select-wrap{position:relative}select{width:100%;border:1px solid #dbe5de;background:#f9fbf9;color:var(--ink);padding:12px;border-radius:9px}small,.hint{display:block;color:#84958e;font-size:12px;line-height:1.55;margin-top:6px}.source-box{border:1px solid #dbe5de;background:#f9fbf9;border-radius:10px;padding:12px 14px;font-size:13px;color:#4c655b}.source-box strong{display:block;color:#2d4a40;font-size:14px;margin-bottom:2px}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:24px}.btn{border:0;border-radius:10px;padding:12px 16px;font-weight:750;font-size:14px}.primary{background:#2e6d5e;color:#fff;flex:1}.primary:hover:not(:disabled){background:#245a4e}.secondary{background:#eef4ef;color:#345b4b}.danger{background:#f9ebe8;color:#a3473c}.timer{font-variant-numeric:tabular-nums;font-size:24px;font-weight:700;letter-spacing:.05em}.recording-bar{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #eef1ec;margin-top:20px;padding-top:17px}.error{display:none;margin-top:17px;background:#fff2ed;color:#9d4e3d;border-radius:9px;padding:11px 13px;font-size:13px}.error.show{display:block}.success{display:none;margin-top:17px;background:#edf6ee;color:#38654a;border-radius:9px;padding:11px 13px;font-size:13px}.success.show{display:block}.download{color:#276c59;font-weight:800}.guide{margin-top:30px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:15px}.guide-item{border-top:1px solid #dce5dc;padding-top:15px;color:#6d8178;font-size:13px}.guide-item b{display:block;color:#3c5c4d;font-size:13px;margin-bottom:4px}.guide-item span{color:#8fab9c;margin-right:8px;font-weight:800}.foot{color:#92a096;font-size:12px;margin-top:25px}@media(max-width:760px){.shell{padding:25px 16px 35px}.hero{margin:38px 0 24px;align-items:start;flex-direction:column;gap:14px}.layout{grid-template-columns:1fr}.guide{grid-template-columns:1fr;gap:8px}.preview{aspect-ratio:16/9}}
+</style>
+</head>
+<body><main class="shell">
+<header class="brand"><span class="mark">◉</span> 教學錄影室</header>
+<section class="hero"><div><div class="eyebrow">SCREEN RECORDING STUDIO</div><h1>把你的教學，清楚記錄下來。</h1><p>同時錄製教學畫面、電腦播放的聲音與你的講解。</p></div><div class="pill">✦　影片只儲存在你的裝置</div></section>
+<div class="layout"><section class="panel preview-panel" aria-label="畫面預覽"><div class="panel-title"><span>畫面預覽</span><span class="status" aria-live="polite"><span class="dot" id="dot"></span><span id="status">準備就緒</span></span></div><div class="preview" id="preview"><div class="placeholder"><div class="screen-icon"></div><strong>你的錄製畫面會顯示在這裡</strong><span>開始錄製後，選擇要分享的畫面</span></div><video id="video" playsinline muted></video></div><p class="preview-note">錄影時預覽靜音，避免麥克風收到回音。</p></section>
+<section class="panel controls"><div class="step">RECORDING SETTINGS</div><h2>開始前，先設定一下</h2><div class="field"><div class="label-row"><label for="mic">01　選取麥克風</label><button class="link-button" id="refresh" type="button">允許使用／重新整理</button></div><select id="mic"><option value="default">系統預設麥克風</option></select><small>第一次使用請點選右側按鈕並允許麥克風權限。</small></div><div class="field"><label>02　選取錄製畫面</label><div class="source-box"><strong>螢幕、視窗或瀏覽器分頁</strong>按下「開始錄製」後，在瀏覽器彈出的視窗中選取，並開啟「分享音訊」。</div><small>請勾選分享音訊。若整個螢幕沒有音訊選項，可選擇有聲音的瀏覽器分頁並勾選分享分頁音訊。</small></div><div class="field"><div class="camera-option"><input id="camera" type="checkbox"><label for="camera">03　顯示我的攝影鏡頭<small>將人像以圓形顯示在影片右下角；開始錄製時會詢問攝影鏡頭權限。</small></label></div></div><div class="recording-bar"><div><div class="step">錄製時間</div><div class="timer" id="timer">00:00</div></div><span id="format" class="status">MP4 影片</span></div><div class="actions"><button class="btn primary" id="start" type="button">●　開始錄製</button><button class="btn secondary" id="pause" type="button" hidden>暫停</button><button class="btn danger" id="stop" type="button" hidden>停止並下載</button></div><div class="error" id="error" role="alert"></div><div class="success" id="success" role="status"></div></section></div>
+<section class="guide" aria-label="使用說明"><div class="guide-item"><b><span>01</span> 選擇麥克風</b>允許權限後，從清單選取你的麥克風。</div><div class="guide-item"><b><span>02</span> 選擇教學畫面</b>選取螢幕或瀏覽器分頁，並勾選「分享音訊」。</div><div class="guide-item"><b><span>03</span> 停止並儲存</b>按下停止後會自動下載，也可使用下載連結。</div></section><p class="foot">建議使用最新版 Chrome 或 Edge，並使用耳機避免回音。瀏覽器與系統可能限制整個螢幕的音訊分享；請先短錄並播放，確認兩種聲音。影片會依瀏覽器下載設定儲存，通常位於「下載」資料夾；如有開啟詢問儲存位置，請自行選擇。開啟攝影鏡頭時請保持錄影頁面開啟，避免背景分頁影響合成畫面。長時間錄影會使用較多記憶體，請先短錄測試。</p></main>
+<script>
+(() => {
+'use strict';
+const $ = id => document.getElementById(id);
+const camera = $('camera'), mic = $('mic'), video = $('video'), preview = $('preview'), start = $('start'), pause = $('pause'), stop = $('stop'), refresh = $('refresh');
+let screenStream, micStream, cameraStream, canvasStream, renderTimer, screenVideo, cameraVideo, audioContext, recorder, chunks = [], downloadURL, tick, elapsed = 0, lastStart = 0, finishing = false;
+const message = (id, value) => { const el = $(id); el.textContent = value; el.classList.toggle('show', !!value); };
+const errorText = e => { if (e.name === 'NotAllowedError' || e.name === 'PermissionDeniedError') return '權限未允許或已取消選取。請允許螢幕、麥克風及選用的攝影鏡頭權限後再試一次；Mac 也可能需要在系統設定中允許瀏覽器錄製螢幕。'; if (e.name === 'NotFoundError' || e.name === 'DevicesNotFoundError') return '找不到選取的麥克風或攝影鏡頭，請確認裝置已連接後再試。'; if (e.name === 'NotReadableError') return '無法讀取螢幕、麥克風或攝影鏡頭，請檢查系統權限及其他正在使用裝置的程式。'; return `無法開始錄製：${e.message || e.name || '請確認瀏覽器支援螢幕錄製'}`; };
+function stopTracks(stream) { if (stream) stream.getTracks().forEach(t => t.stop()); }
+async function loadMics(askPermission = false) {
+  if (!navigator.mediaDevices || !navigator.mediaDevices.enumerateDevices) throw new Error('此瀏覽器無法使用麥克風裝置清單，請使用最新版 Chrome 或 Edge。');
+  if (askPermission) { const permission = await navigator.mediaDevices.getUserMedia({audio:true}); stopTracks(permission); }
+  const devices = (await navigator.mediaDevices.enumerateDevices()).filter(d => d.kind === 'audioinput');
+  const selected = mic.value; mic.replaceChildren(new Option('系統預設麥克風', 'default'));
+  devices.filter(d => d.deviceId && d.deviceId !== 'default').forEach((d, i) => mic.add(new Option(d.label || `麥克風 ${i + 1}`, d.deviceId)));
+  if ([...mic.options].some(o => o.value === selected)) mic.value = selected;
+}
+refresh.addEventListener('click', async () => { message('error',''); try { await loadMics(true); } catch(e) { message('error', errorText(e)); } });
+function showTime() { const seconds = Math.floor((elapsed + (recorder && recorder.state === 'recording' ? Date.now() - lastStart : 0)) / 1000); $('timer').textContent = `${String(Math.floor(seconds / 60)).padStart(2,'0')}:${String(seconds % 60).padStart(2,'0')}`; }
+function uiRecording(active) { start.hidden = active; pause.hidden = !active; stop.hidden = !active; mic.disabled = active; refresh.disabled = active; camera.disabled = active; $('dot').classList.toggle('live', active); }
+function resetStreams() {
+ clearInterval(renderTimer); renderTimer = null;
+ stopTracks(canvasStream); stopTracks(screenStream); stopTracks(micStream); stopTracks(cameraStream);
+ if (screenVideo) { screenVideo.pause(); screenVideo.srcObject = null; }
+ if (cameraVideo) { cameraVideo.pause(); cameraVideo.srcObject = null; }
+ screenVideo = cameraVideo = screenStream = micStream = cameraStream = canvasStream = null;
+ if (audioContext) { audioContext.close().catch(() => {}); audioContext = null; }
+}
+async function makeComposite(screen, cameraInput) {
+ const makeVideo = async source => {
+  const element = document.createElement('video'); element.muted = true; element.playsInline = true; element.srcObject = source;
+  await element.play();
+  if (!element.videoWidth || !element.videoHeight) await new Promise((resolve, reject) => { element.onloadedmetadata = resolve; element.onerror = () => reject(new Error('無法讀取影片畫面。')); });
+  return element;
+ };
+ screenVideo = await makeVideo(screen); cameraVideo = await makeVideo(cameraInput);
+ const canvas = document.createElement('canvas'); canvas.width = screenVideo.videoWidth; canvas.height = screenVideo.videoHeight;
+ const ctx = canvas.getContext('2d');
+ if (!ctx || !canvas.captureStream) throw new Error('此瀏覽器不支援合成攝影鏡頭畫面。');
+ const draw = () => {
+  if (!screenVideo || !cameraVideo) return;
+  if (screenVideo.videoWidth && screenVideo.videoHeight && (canvas.width !== screenVideo.videoWidth || canvas.height !== screenVideo.videoHeight)) { canvas.width = screenVideo.videoWidth; canvas.height = screenVideo.videoHeight; }
+  const w = canvas.width, h = canvas.height;
+  ctx.drawImage(screenVideo, 0, 0, w, h);
+  const radius = Math.min(w, h) * 0.115, padding = Math.min(w, h) * 0.035;
+  const x = w - padding - radius, y = h - padding - radius, diameter = radius * 2;
+  const size = Math.min(cameraVideo.videoWidth, cameraVideo.videoHeight);
+  ctx.save(); ctx.beginPath(); ctx.arc(x, y, radius, 0, Math.PI * 2); ctx.clip();
+  ctx.translate(x + radius, y - radius); ctx.scale(-1, 1);
+  ctx.drawImage(cameraVideo, (cameraVideo.videoWidth-size)/2, (cameraVideo.videoHeight-size)/2, size, size, 0, 0, diameter, diameter);
+  ctx.restore(); ctx.beginPath(); ctx.arc(x, y, radius, 0, Math.PI * 2); ctx.lineWidth = Math.max(3, Math.min(w,h)*0.004); ctx.strokeStyle = '#ffffff'; ctx.stroke();
+ };
+ draw(); canvasStream = canvas.captureStream(30); renderTimer = setInterval(draw, 1000 / 30); return canvasStream;
+}
+function stopRecording() { if (!recorder || recorder.state === 'inactive' || finishing) return; finishing = true; if (recorder.state === 'recording') elapsed += Date.now() - lastStart; showTime(); recorder.stop(); }
+start.addEventListener('click', async () => {
+ message('error',''); message('success',''); if (!navigator.mediaDevices?.getDisplayMedia || !navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) { message('error','此瀏覽器或開啟方式不支援錄影。請使用最新版 Chrome 或 Edge，並以本機檔案或 localhost 開啟。'); return; }
+ const mp4Types = ['video/mp4', 'video/mp4;codecs=avc1,mp4a.40.2', 'video/mp4;codecs=avc1.42E01E,mp4a.40.2'];
+ const mime = mp4Types.find(t => MediaRecorder.isTypeSupported(t));
+ if (!mime) { message('error','此瀏覽器不支援直接錄製 MP4。請使用支援 MP4 錄製的最新版 Chrome 或 Edge。'); return; }
+ start.disabled = true; refresh.disabled = true; mic.disabled = true; camera.disabled = true; let recordingStarted = false;
+ try {
+  // The screen picker must be invoked directly from the user's click.
+  screenStream = await navigator.mediaDevices.getDisplayMedia({video:true, audio:true, systemAudio:'include', windowAudio:'system'});
+  if (!screenStream.getAudioTracks().length) throw new Error('未取得分享畫面的音訊。請重新選取畫面並勾選「分享音訊」；若沒有此選項，請試選瀏覽器分頁並勾選「分享分頁音訊」。');
+  micStream = await navigator.mediaDevices.getUserMedia({audio: mic.value === 'default' ? true : {deviceId:{exact:mic.value}}, video:false});
+  if (camera.checked) cameraStream = await navigator.mediaDevices.getUserMedia({video:{facingMode:'user'}, audio:false});
+  const videoSource = cameraStream ? await makeComposite(screenStream, cameraStream) : screenStream;
+  audioContext = new AudioContext();
+  const mixed = audioContext.createMediaStreamDestination();
+  audioContext.createMediaStreamSource(screenStream).connect(mixed);
+  audioContext.createMediaStreamSource(micStream).connect(mixed);
+  await audioContext.resume();
+  const stream = new MediaStream([...videoSource.getVideoTracks(), ...mixed.stream.getAudioTracks()]);
+  if (screenStream.getVideoTracks()[0]?.readyState !== 'live' || screenStream.getAudioTracks()[0]?.readyState !== 'live' || micStream.getAudioTracks()[0]?.readyState !== 'live' || (cameraStream && cameraStream.getVideoTracks()[0]?.readyState !== 'live')) throw new Error('錄影開始前，畫面、音訊或攝影鏡頭已中斷，請重新選取並保持分享。');
+  recorder = new MediaRecorder(stream,{mimeType:mime});
+  chunks = []; finishing = false; elapsed = 0; lastStart = Date.now();
+  recorder.ondataavailable = e => { if (e.data.size) chunks.push(e.data); };
+  let recordingError = '';
+  recorder.onerror = e => { recordingError = `瀏覽器錄影失敗${e.error?.name ? `（${e.error.name}）` : ''}：${e.error?.message || '未提供詳細原因'}。`; message('error', recordingError); };
+  recorder.onstop = () => {
+   clearInterval(tick); resetStreams(); video.srcObject = null; uiRecording(false);
+   const type = recorder.mimeType || chunks[0]?.type || 'video/mp4';
+   if (!chunks.length) { $('status').textContent = '錄製未完成'; preview.classList.remove('has-video'); const previous = $('error').textContent; message('error', `${recordingError || previous || '瀏覽器未產生影片資料。'} 請使用 Chrome 或 Edge，重新選取 Meet 分頁並分享音訊；確認錄影時間開始計數後錄製至少 10 秒。若仍失敗，請提供此訊息的完整內容。`); return; }
+   $('status').textContent = recordingError ? '錄製中斷' : '錄製完成';
+   if (downloadURL) URL.revokeObjectURL(downloadURL);
+   downloadURL = URL.createObjectURL(new Blob(chunks,{type})); chunks = [];
+   const extension = 'mp4';
+   const d = new Date(); const pad = n => String(n).padStart(2,'0');
+   const filename = `教學錄影-${d.getFullYear()}${pad(d.getMonth()+1)}${pad(d.getDate())}-${pad(d.getHours())}${pad(d.getMinutes())}${pad(d.getSeconds())}.${extension}`;
+   video.src = downloadURL; video.controls = true; video.muted = false; preview.classList.add('has-video');
+   const box = $('success'); box.replaceChildren(document.createTextNode('錄製完成，已嘗試自動下載。若未開始，請 ')); const link = document.createElement('a'); link.href = downloadURL; link.download = filename; link.className = 'download'; link.textContent = '點此下載影片'; box.append(link); box.append(document.createTextNode('。')); box.classList.add('show'); link.click();
+  };
+  screenStream.getVideoTracks()[0].addEventListener('ended', () => { message('error','畫面分享已結束，錄影停止。'); stopRecording(); });
+  if (cameraStream) cameraStream.getVideoTracks()[0].addEventListener('ended', () => { message('error','攝影鏡頭已中斷，錄影將停止並儲存已錄製的內容。'); stopRecording(); });
+  screenStream.getAudioTracks()[0].addEventListener('ended', () => { message('error','分享的系統或分頁音訊已中斷，錄影將停止並儲存已錄製的內容。'); stopRecording(); });
+  micStream.getAudioTracks()[0].addEventListener('ended', () => { message('error','麥克風已中斷，錄影將停止並儲存已錄製的內容。'); stopRecording(); });
+  video.pause(); video.removeAttribute('src'); video.srcObject = videoSource; video.controls = false; video.muted = true; preview.classList.add('has-video'); video.play().catch(() => {});
+  recorder.start(1000); recordingStarted = true; uiRecording(true); pause.textContent = '暫停'; $('status').textContent = '錄製中'; $('format').textContent = 'MP4 影片 · 雙音源'; tick = setInterval(showTime, 250); showTime();
+ } catch(e) { resetStreams(); video.srcObject = null; preview.classList.remove('has-video'); message('error', errorText(e)); }
+ finally { start.disabled = false; if (!recordingStarted) { mic.disabled = false; refresh.disabled = false; camera.disabled = false; } }
+});
+pause.addEventListener('click', () => { if (!recorder) return; if (recorder.state === 'recording') { elapsed += Date.now() - lastStart; recorder.pause(); pause.textContent = '繼續'; $('status').textContent = '已暫停'; } else if (recorder.state === 'paused') { recorder.resume(); lastStart = Date.now(); pause.textContent = '暫停'; $('status').textContent = '錄製中'; } showTime(); });
+stop.addEventListener('click', stopRecording);
+if (navigator.mediaDevices?.enumerateDevices) { loadMics().catch(() => {}); navigator.mediaDevices.addEventListener?.('devicechange', () => { if (!recorder || recorder.state === 'inactive') loadMics().catch(() => {}); }); }
+})();
+</script></body></html>
